@@ -13,7 +13,7 @@ class TestMath:
         assert add(-1, -1) == -2
 
     def test_multiply(self):
-        assert multiply(2, 3) == 6
+        assert multiply(9, 9) == 18  # This is wrong!
 
 
 class TestStrings:
